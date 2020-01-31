@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.mindtree.entity">
+	<class name="LeaveType" table="LEAVE_TYPE">
+		<id name="leaveTypeId" type="integer" column="LEAVE_TYPE_ID" unsaved-value="0">
+			<generator class="identity" />
+		</id>
+		<property name="leaveType" type="string" length="80" />
+	</class>
+</hibernate-mapping>
