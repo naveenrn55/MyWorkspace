@@ -10,10 +10,6 @@ import java.sql.Statement;
 
 import com.mindtree.exception.DaoException;
 
-/**
- * @author M1018442
- *
- */
 public abstract class BaseDao {
 
 	private static final String DRIVER="com.mysql.jdbc.Driver";
