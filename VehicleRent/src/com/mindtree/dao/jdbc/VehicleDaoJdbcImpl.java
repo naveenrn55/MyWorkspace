@@ -15,10 +15,7 @@ import com.mindtree.entity.Rental;
 import com.mindtree.entity.Vehicle;
 import com.mindtree.exception.DaoException;
 
-/**
- * @author M1018442
- *
- */
+
 public class VehicleDaoJdbcImpl extends BaseDao implements VehicleDao {
 
 	

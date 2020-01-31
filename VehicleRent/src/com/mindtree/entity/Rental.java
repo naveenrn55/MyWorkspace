@@ -5,10 +5,7 @@ package com.mindtree.entity;
 
 import java.util.Date;
 
-/**
- * @author M1018442
- *
- */
+
 public class Rental {
 
 	private int rentalId;

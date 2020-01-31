@@ -3,10 +3,7 @@
  */
 package com.mindtree.exception;
 
-/**
- * @author M1018442
- *
- */
+
 public class DaoException extends ApplicationException {
 
 	public DaoException() {

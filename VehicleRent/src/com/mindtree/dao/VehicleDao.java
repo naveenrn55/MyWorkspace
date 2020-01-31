@@ -9,10 +9,7 @@ import com.mindtree.entity.Rental;
 import com.mindtree.entity.Vehicle;
 import com.mindtree.exception.DaoException;
 
-/**
- * @author M1018442
- *
- */
+
 public interface VehicleDao {
 
 	public void addVehicle(Vehicle vehicle) throws DaoException;

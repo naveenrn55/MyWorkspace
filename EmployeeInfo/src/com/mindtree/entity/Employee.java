@@ -3,11 +3,6 @@
  */
 package com.mindtree.entity;
 
-/**
- * @author Banu Prakash
- *
- * © 2011 MindTree Limited
- */
 public class Employee {
 	private int employeeId;
 	private String employeeName;

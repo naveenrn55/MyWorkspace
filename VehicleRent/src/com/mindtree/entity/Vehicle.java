@@ -3,10 +3,7 @@
  */
 package com.mindtree.entity;
 
-/**
- * @author M1018442
- *
- */
+
 public class Vehicle {
 
 	private int vehicleId;
